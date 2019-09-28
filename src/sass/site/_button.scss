@@ -8,6 +8,24 @@
     border-radius: 4px;
     box-shadow: 0 0.25rem 0.25rem -0.125rem cc(shadow, 0.33);
     transition: all 225ms cb();
+  }
+
+    &--view {
+      background-color: goldenrod;
+      color: cc(bg);
+      border-radius: 4px;
+      box-shadow: 0 0.25rem 0.25rem -0.125rem cc(shadow, 0.33);
+      transition: all 225ms cb();
+      margin-top: 10px;
+    }
+    &--checkout {
+      background-color: goldenrod;
+      color: cc(bg);
+      border-radius: 4px;
+      box-shadow: 0 0.25rem 0.25rem -0.125rem cc(shadow, 0.33);
+      transition: all 225ms cb();
+      // margin-top: 10px;
+      padding: 10px;
 
     &:hover {
       background-color: cc(primary, darker);
