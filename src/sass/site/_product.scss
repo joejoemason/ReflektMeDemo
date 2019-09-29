@@ -1,5 +1,6 @@
 .product {
   text-align: center;
+  color: aliceblue;
 
   &__name {
     @extend %txt--product;

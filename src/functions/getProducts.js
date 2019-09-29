@@ -16,6 +16,7 @@ exports.handler = (event, context, callback) => {
       const output = {
         id: x.slug.current,
         name: x.title,
+        brand: x.name,
         url: `${process.env.URL}/.netlify/functions/getProducts`,
         price: x.defaultProductVariant.price,
         description: x.blurb.en,

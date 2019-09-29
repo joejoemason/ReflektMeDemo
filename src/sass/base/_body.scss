@@ -2,7 +2,7 @@ body {
   @extend %txt--body;
   position: relative;
   color: cc(txt);
-  background-color: cc(bg);
+  background-color: rgb(80, 76, 76);
 
   ::selection {
     background-color: cc(selection);
